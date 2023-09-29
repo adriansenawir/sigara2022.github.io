@@ -9,7 +9,6 @@
 .container-fluid{
     background-color: transparent;
     display: flex;
-    /* position: fixed; */
 }
 
 .logosigara{
@@ -18,7 +17,6 @@
 
 .navbar {
     height: 70px; 
-    /* position: absolute; */
 }
 
 .navbar-collapse {
@@ -31,17 +29,18 @@
 
 .carousel {
     margin-top: -70px;
-    position: absolute;
 }
 
-.teksawal{
-    position: relative;
-    color: aliceblue;
-    margin-top: 100px;
+#history {
+    margin-top: 40px;
 }
 
 .tekssigara{
     font-size: 45px;
+}
+
+.card {
+    margin: 15px;
 }
 
 #slogan {
@@ -70,7 +69,6 @@
     padding: 20px 5%;
 }
 
-
 .footer {
     background-color: #ffcd70b4;
     display: flex;
@@ -87,7 +85,6 @@
 }
 
 @media screen and (max-width:800px) {
-
     .footer {
         flex-direction: column;
         justify-content: center;
